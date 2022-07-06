@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api", "api\api.csproj", "{B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tests", "tests\tests.csproj", "{7E28AE21-161F-4042-8CD2-5D390FC8C898}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mapster_test", "mapster_test\mapster_test.csproj", "{DA211CDF-307C-44F6-A080-04CE9FC49775}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{7E28AE21-161F-4042-8CD2-5D390FC8C898}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E28AE21-161F-4042-8CD2-5D390FC8C898}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E28AE21-161F-4042-8CD2-5D390FC8C898}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA211CDF-307C-44F6-A080-04CE9FC49775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA211CDF-307C-44F6-A080-04CE9FC49775}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA211CDF-307C-44F6-A080-04CE9FC49775}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA211CDF-307C-44F6-A080-04CE9FC49775}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
