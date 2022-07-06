@@ -9,7 +9,7 @@ public class Program
         Console.WriteLine(JsonConvert.SerializeObject(obj, Formatting.Indented));
     }
 
-    public static void Main()
+    public static void Main(IProductMapper productMapper)
     {
         var user = new User
         {
@@ -25,7 +25,7 @@ public class Program
         };
 
         Print(user);
-        var smallDto = user.Adapt<SmallUserDto>();
+        var smallDto = productMapper.MapToDto(user);
         Print(smallDto);
         var fullDto = smallDto.Adapt<User>();
         Print(fullDto);
